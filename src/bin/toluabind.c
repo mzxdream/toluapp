@@ -1,6 +1,6 @@
 /*
 ** Lua binding: tolua
-** Generated automatically by tolua++-1.0.92 on Sun Sep 16 20:10:48 2018.
+** Generated automatically by tolua++-1.0.92.
 */
 
 #ifndef __cplusplus
@@ -29,7 +29,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
    105,102, 32,115,116,114,105,110,103, 46,102,105,110,100, 40,
      95, 86, 69, 82, 83, 73, 79, 78, 44, 32, 34, 53, 37, 46, 48,
      34, 41, 32,116,104,101,110, 13, 10,  9,114,101,116,117,114,
@@ -92,7 +92,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     103, 46,114,101,112,108, 32, 61, 32,111,103,115,117, 98, 13,
      10, 45, 45, 93, 93, 13, 10, 13, 10, 45, 45,115,116,114,105,
     110,103, 46,103,115,117, 98, 32, 61, 32, 99,111,109,112,103,
-    115,117, 98, 13,32
+    115,117, 98, 13, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/compat-5.1.lua");
    lua_settop(tolua_S, top);
@@ -101,7 +101,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45,
      45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45,
      45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45,
@@ -374,7 +374,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     116, 97, 98, 46,114,101,109,111,118,101, 40, 97,114,103, 44,
      32, 49, 41, 10, 32, 32,101,110,100, 10, 32, 32,114,101,116,
     117,114,110, 32,102, 58,119,114,105,116,101, 40,117,110,112,
-     97, 99,107, 40, 97,114,103, 41, 41, 10,101,110,100,32
+     97, 99,107, 40, 97,114,103, 41, 41, 10,101,110,100, 45, 45,
+     45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/compat.lua");
    lua_settop(tolua_S, top);
@@ -383,7 +384,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32, 98, 97,115,105, 99,
      32,117,116,105,108,105,116,121, 32,102,117,110, 99,116,105,
     111,110,115, 10, 45, 45, 32, 87,114,105,116,116,101,110, 32,
@@ -977,7 +978,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      97,114, 99,104, 95, 98, 97,115,101, 40,116, 44, 32, 95, 98,
      97,115,101, 95,105,115, 95,102,117,110, 99,116,105,111,110,
     115, 41, 32,111,114, 32, 34,116,111,108,117, 97, 95,105,115,
-    117,115,101,114,116,121,112,101, 34, 10,101,110,100,32
+    117,115,101,114,116,121,112,101, 34, 10,101,110,100, 45, 45,
+     45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/basic.lua");
    lua_settop(tolua_S, top);
@@ -986,7 +988,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32, 97, 98,115,116,114,
      97, 99,116, 32,102,101, 97,116,117,114,101, 32, 99,108, 97,
     115,115, 10, 45, 45, 32, 87,114,105,116,116,101,110, 32, 98,
@@ -1179,7 +1181,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      40,102,110, 97,109,101, 41, 44, 32, 34, 91, 60, 62, 58, 44,
      32, 92, 46, 37, 42, 38, 93, 34, 44, 32, 34, 95, 34, 41, 10,
      10, 32, 32,114,101,116,117,114,110, 32,110, 10,101,110,100,
-    32
+     45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45,
+     45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/feature.lua");
    lua_settop(tolua_S, top);
@@ -1188,7 +1191,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,118,101,114, 98, 97,
     116,105,109, 32, 99,108, 97,115,115, 10, 45, 45, 32, 87,114,
     105,116,116,101,110, 32, 98,121, 32, 87, 97,108,100,101,109,
@@ -1299,7 +1302,9 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      32,114,101,116,117,114,110, 32, 95, 86,101,114, 98, 97,116,
     105,109, 32,123, 10, 32, 32,108,105,110,101, 32, 61, 32,108,
      44, 10, 32, 32, 99,111,110,100, 32, 61, 32, 99,111,110,100,
-     32,111,114, 32, 39, 39, 44, 10, 32,125, 10,101,110,100,32
+     32,111,114, 32, 39, 39, 44, 10, 32,125, 10,101,110,100, 45,
+     45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45,
+    32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/verbatim.lua");
    lua_settop(tolua_S, top);
@@ -1308,7 +1313,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32, 99,111,100,101, 32,
      99,108, 97,115,115, 10, 45, 45, 32, 87,114,105,116,116,101,
     110, 32, 98,121, 32, 87, 97,108,100,101,109, 97,114, 32, 67,
@@ -1476,7 +1481,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      32,116,101,120,116, 10,102,117,110, 99,116,105,111,110, 32,
      67,111,100,101, 32, 40,108, 41, 10, 32,114,101,116,117,114,
     110, 32, 95, 67,111,100,101, 32,123, 10, 32, 32,116,101,120,
-    116, 32, 61, 32,108, 10, 32,125, 10,101,110,100,32
+    116, 32, 61, 32,108, 10, 32,125, 10,101,110,100, 45, 45, 45,
+     45, 45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/code.lua");
    lua_settop(tolua_S, top);
@@ -1485,7 +1491,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,116,121,112,101,100,
     101,102, 32, 99,108, 97,115,115, 10, 45, 45, 32, 87,114,105,
     116,116,101,110, 32, 98,121, 32, 87, 97,108,100,101,109, 97,
@@ -1598,7 +1604,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      32,109,111,100, 32, 61, 32, 99,111,110, 99, 97,116, 40,116,
      44, 49, 44,116, 46,110, 45, 50, 41, 44, 10,  9, 32,125, 10,
      32,101,110,100, 10, 32,114,101,116,117,114,110, 32, 95, 84,
-    121,112,101,100,101,102, 40,111, 41, 10,101,110,100,32
+    121,112,101,100,101,102, 40,111, 41, 10,101,110,100, 45, 45,
+     45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/typedef.lua");
    lua_settop(tolua_S, top);
@@ -1607,7 +1614,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32, 99,111,110,116, 97,
     105,110,101,114, 32, 97, 98,115,116,114, 97, 99,116, 32, 99,
     108, 97,115,115, 10, 45, 45, 32, 87,114,105,116,116,101,110,
@@ -2768,7 +2775,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     114,101,110,116, 32, 97,110,100, 32,115,101,108,102, 46,112,
      97,114,101,110,116, 58,103,101,116, 95,112,114,111,112,101,
     114,116,121, 95,116,121,112,101, 40, 41, 41, 32,111,114, 32,
-     34,100,101,102, 97,117,108,116, 34, 10,101,110,100,32
+     34,100,101,102, 97,117,108,116, 34, 10,101,110,100, 45, 45,
+     45, 45, 45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/container.lua");
    lua_settop(tolua_S, top);
@@ -2777,7 +2785,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,112, 97, 99,107, 97,
     103,101, 32, 99,108, 97,115,115, 10, 45, 45, 32, 87,114,105,
     116,116,101,110, 32, 98,121, 32, 87, 97,108,100,101,109, 97,
@@ -3485,7 +3493,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     101, 41, 10, 32, 32,101,110,100, 10, 32, 32,115,101,116,102,
     101,110,118, 40,102, 44, 32, 95,101,120,116,114, 97, 95,112,
      97,114, 97,109,101,116,101,114,115, 41, 10, 32, 32,114,101,
-    116,117,114,110, 32,102, 40, 41, 10,101,110,100,32
+    116,117,114,110, 32,102, 40, 41, 10,101,110,100, 45, 45, 45,
+     45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/package.lua");
    lua_settop(tolua_S, top);
@@ -3494,7 +3503,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,109,111,100,117,108,
     101, 32, 99,108, 97,115,115, 10, 45, 45, 32, 87,114,105,116,
     116,101,110, 32, 98,121, 32, 87, 97,108,100,101,109, 97,114,
@@ -3593,7 +3602,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     108,101,110, 40, 98, 41, 45, 49, 41, 41, 32, 45, 45, 32,101,
     108,105,109,105,110, 97,116,101, 32, 98,114, 97, 99,101,115,
      10, 32,112,111,112, 40, 41, 10, 32,114,101,116,117,114,110,
-     32,116, 10,101,110,100,32
+     32,116, 10,101,110,100, 45, 45, 45, 45, 45, 45, 45, 45, 45,
+     45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/module.lua");
    lua_settop(tolua_S, top);
@@ -3602,7 +3612,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,110, 97,109,101,115,
     112, 97, 99,101, 32, 99,108, 97,115,115, 10, 45, 45, 32, 87,
     114,105,116,116,101,110, 32, 98,121, 32, 87, 97,108,100,101,
@@ -3681,7 +3691,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     114,115,117, 98, 40, 98, 44, 50, 44,115,116,114,108,101,110,
      40, 98, 41, 45, 49, 41, 41, 32, 45, 45, 32,101,108,105,109,
     105,110, 97,116,101, 32, 98,114, 97, 99,101,115, 10, 32,112,
-    111,112, 40, 41, 10,101,110,100,32
+    111,112, 40, 41, 10,101,110,100, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/namespace.lua");
    lua_settop(tolua_S, top);
@@ -3690,7 +3700,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,100,101,102,105,110,
     101, 32, 99,108, 97,115,115, 10, 45, 45, 32, 87,114,105,116,
     116,101,110, 32, 98,121, 32, 87, 97,108,100,101,109, 97,114,
@@ -3778,7 +3788,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     102,117,110, 99,116,105,111,110, 32, 68,101,102,105,110,101,
      32, 40,110, 41, 10, 32,114,101,116,117,114,110, 32, 95, 68,
     101,102,105,110,101,123, 10, 32, 32,110, 97,109,101, 32, 61,
-     32,110, 10, 32,125, 10,101,110,100,32
+     32,110, 10, 32,125, 10,101,110,100, 45, 45, 45, 45, 45, 45,
+     45, 45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/define.lua");
    lua_settop(tolua_S, top);
@@ -3787,7 +3798,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,101,110,117,109,101,
     114, 97,116,101, 32, 99,108, 97,115,115, 10, 45, 45, 32, 87,
     114,105,116,116,101,110, 32, 98,121, 32, 87, 97,108,100,101,
@@ -3956,7 +3967,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     105,110,116, 32, 34, 46, 46,110, 41, 10,  9,101,110,100, 10,
      32,114,101,116,117,114,110, 32, 95, 69,110,117,109,101,114,
      97,116,101, 40,101, 44, 32,118, 97,114,110, 97,109,101, 41,
-     10,101,110,100,32
+     10,101,110,100, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/enumerate.lua");
    lua_settop(tolua_S, top);
@@ -3965,7 +3976,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,100,101, 99,108, 97,
     114, 97,116,105,111,110, 32, 99,108, 97,115,115, 10, 45, 45,
      32, 87,114,105,116,116,101,110, 32, 98,121, 32, 87, 97,108,
@@ -4967,7 +4978,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     114, 97,109,101,116,101,114, 32, 61, 32,105,115, 95,112, 97,
     114, 97,109,101,116,101,114, 44, 10, 32, 32, 32,107,105,110,
     100, 32, 61, 32,107,105,110,100, 10, 32, 32,125, 10, 32,101,
-    110,100, 10, 10,101,110,100,32
+    110,100, 10, 10,101,110,100, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/declaration.lua");
    lua_settop(tolua_S, top);
@@ -4976,7 +4987,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,118, 97,114,105, 97,
      98,108,101, 32, 99,108, 97,115,115, 10, 45, 45, 32, 87,114,
     105,116,116,101,110, 32, 98,121, 32, 87, 97,108,100,101,109,
@@ -5514,7 +5525,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      97,114,105, 97, 98,108,101, 32, 40,115, 41, 10, 32,114,101,
     116,117,114,110, 32, 95, 86, 97,114,105, 97, 98,108,101, 32,
      40, 68,101, 99,108, 97,114, 97,116,105,111,110, 40,115, 44,
-     39,118, 97,114, 39, 41, 41, 10,101,110,100,32
+     39,118, 97,114, 39, 41, 41, 10,101,110,100, 45, 45, 45, 45,
+     45, 45, 45, 45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/variable.lua");
    lua_settop(tolua_S, top);
@@ -5523,7 +5535,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32, 97,114,114, 97,121,
      32, 99,108, 97,115,115, 10, 45, 45, 32, 87,114,105,116,116,
     101,110, 32, 98,121, 32, 87, 97,108,100,101,109, 97,114, 32,
@@ -5960,7 +5972,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     110, 32, 65,114,114, 97,121, 32, 40,115, 41, 10, 32,114,101,
     116,117,114,110, 32, 95, 65,114,114, 97,121, 32, 40, 68,101,
      99,108, 97,114, 97,116,105,111,110, 40,115, 44, 39,118, 97,
-    114, 39, 41, 41, 10,101,110,100,32
+    114, 39, 41, 41, 10,101,110,100, 45, 45, 45, 45, 45, 45, 45,
+     45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/array.lua");
    lua_settop(tolua_S, top);
@@ -5969,7 +5982,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,102,117,110, 99,116,
     105,111,110, 32, 99,108, 97,115,115, 10, 45, 45, 32, 87,114,
     105,116,116,101,110, 32, 98,121, 32, 87, 97,108,100,101,109,
@@ -6920,7 +6933,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     101,116, 46, 46,115,101,112, 46, 46,116, 91,105, 93, 10,  9,
       9,115,101,112, 32, 61, 32, 34, 44, 34, 10,  9,101,110,100,
      10, 10,  9,114,101,116,117,114,110, 32, 34, 40, 34, 46, 46,
-    114,101,116, 46, 46, 34, 41, 34, 10,101,110,100,32
+    114,101,116, 46, 46, 34, 41, 34, 10,101,110,100, 45, 45, 45,
+     45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/function.lua");
    lua_settop(tolua_S, top);
@@ -6929,7 +6943,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32,111,112,101,114, 97,
     116,111,114, 32, 99,108, 97,115,115, 10, 45, 45, 32, 87,114,
     105,116,116,101,110, 32, 98,121, 32, 87, 97,108,100,101,109,
@@ -7332,7 +7346,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      99,111,114,114,101,115,112,111,100,105,110,103, 32,115,101,
     116, 32,111,112,101,114, 97,116,111,114, 10, 32,101,110,100,
      10, 32,114,101,116,117,114,110, 32, 95, 79,112,101,114, 97,
-    116,111,114, 40,102, 41, 10,101,110,100,32
+    116,111,114, 40,102, 41, 10,101,110,100, 45, 45, 45, 45, 45,
+     45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/operator.lua");
    lua_settop(tolua_S, top);
@@ -7341,7 +7356,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     10, 95,103,108,111, 98, 97,108, 95,116,101,109,112,108, 97,
     116,101,115, 32, 61, 32,123,125, 10, 10, 99,108, 97,115,115,
      84,101,109,112,108, 97,116,101, 67,108, 97,115,115, 32, 61,
@@ -7463,7 +7478,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      41, 10,  9,101,108,115,101, 10,  9,  9, 95,103,108,111, 98,
      97,108, 95,116,101,109,112,108, 97,116,101,115, 91,111,110,
      97,109,101, 93, 32, 61, 32,111, 10,  9,101,110,100, 10, 10,
-      9,114,101,116,117,114,110, 32,111, 10,101,110,100,32
+      9,114,101,116,117,114,110, 32,111, 10,101,110,100, 45, 45,
+     45, 45, 45, 45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/template_class.lua");
    lua_settop(tolua_S, top);
@@ -7472,7 +7488,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,116,111,108,117, 97, 58, 32, 99,108, 97,115,115,
      32, 99,108, 97,115,115, 10, 45, 45, 32, 87,114,105,116,116,
     101,110, 32, 98,121, 32, 87, 97,108,100,101,109, 97,114, 32,
@@ -7803,7 +7819,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
     115,101, 40,115,116,114,115,117, 98, 40, 98, 44, 50, 44,115,
     116,114,108,101,110, 40, 98, 41, 45, 49, 41, 41, 32, 45, 45,
      32,101,108,105,109,105,110, 97,116,101, 32, 98,114, 97, 99,
-    101,115, 10,  9,112,111,112, 40, 41, 10,101,110,100,32
+    101,115, 10,  9,112,111,112, 40, 41, 10,101,110,100, 45, 45,
+     45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/class.lua");
    lua_settop(tolua_S, top);
@@ -7812,7 +7829,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32,109, 97,114,107, 32,117,112, 32, 99,111,109,109,
     101,110,116,115, 32, 97,110,100, 32,115,116,114,105,110,103,
     115, 10, 83, 84, 82, 49, 32, 61, 32, 34, 92, 48, 48, 49, 34,
@@ -7901,7 +7918,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      44, 34, 92,110, 34, 41, 10,  9, 83, 32, 61, 32,103,115,117,
      98, 40, 83, 44, 34, 92,110, 43, 34, 44, 34, 92,110, 34, 41,
      10, 32, 83, 32, 61, 32,117,110,109, 97,115,107, 40, 83, 41,
-     10, 32,114,101,116,117,114,110, 32, 83, 10,101,110,100,32
+     10, 32,114,101,116,117,114,110, 32, 83, 10,101,110,100, 45,
+     45, 45, 45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/clean.lua");
    lua_settop(tolua_S, top);
@@ -7910,7 +7928,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     45, 45, 32, 71,101,110,101,114, 97,116,101, 32, 98,105,110,
     100,105,110,103, 32, 99,111,100,101, 10, 45, 45, 32, 87,114,
     105,116,116,101,110, 32, 98,121, 32, 87, 97,108,100,101,109,
@@ -8031,7 +8049,8 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      46, 46,109,115,103, 41, 10,  9,  9,  9,101,110,100, 10,  9,
       9,  9,112, 58,104,101, 97,100,101,114, 40, 41, 10,  9,  9,
       9,119,114,105,116,101,116,111, 40, 41, 10,  9,  9,101,110,
-    100, 10,  9,101,110,100, 10,101,110,100,32
+    100, 10,  9,101,110,100, 10,101,110,100, 45, 45, 45, 45, 45,
+     45, 45, 45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua embedded: src/bin/lua/doit.lua");
    lua_settop(tolua_S, top);
@@ -8040,7 +8059,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
 
   { /* begin embedded lua code */
    int top = lua_gettop(tolua_S);
-   static unsigned char B[] = {
+   static const unsigned char B[] = {
     10,108,111, 99, 97,108, 32,101,114,114, 44,109,115,103, 32,
      61, 32,112, 99, 97,108,108, 40,100,111,105,116, 41, 10,105,
     102, 32,110,111,116, 32,101,114,114, 32,116,104,101,110, 10,
@@ -8051,7 +8070,7 @@ TOLUA_API int tolua_tolua_open (lua_State* tolua_S)
      95,101,114,114,111,114, 40,109,115,103, 44,108, 97, 98,101,
     108, 41, 10, 32,112,114,105,110,116, 40,100,101, 98,117,103,
      46,116,114, 97, 99,101, 98, 97, 99,107, 40, 41, 41, 10,101,
-    110,100,32
+    110,100, 45, 45, 45, 45, 45, 45, 45, 45,32
    };
    tolua_dobuffer(tolua_S,(char*)B,sizeof(B),"tolua: embedded Lua code 23");
    lua_settop(tolua_S, top);
