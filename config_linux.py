@@ -4,8 +4,8 @@
 
 # Compiler flags (based on Debian's installation of lua)
 #LINKFLAGS = ['-g']
-CCFLAGS = ['-I/usr/include/lua50', '-O2', '-ansi', '-Wall']
-#CCFLAGS = ['-I/usr/include/lua50', '-g']
+CCFLAGS = ['-I/usr/include/lua5.1', '-O2', '-ansi', '-Wall']
+#CCFLAGS = ['-I/usr/include/lua5.1', '-g']
 
 # this is the default directory for installation. Files will be installed on
 # <prefix>/bin, <prefix>/lib and <prefix>/include when you run 'scons install'
@@ -18,5 +18,5 @@ CCFLAGS = ['-I/usr/include/lua50', '-O2', '-ansi', '-Wall']
 prefix = '/usr/local'
 
 # libraries (based on Debian's installation of lua)
-LIBS = ['lua50', 'lualib50', 'dl', 'm']
+LIBS = ['lua5.1', 'dl', 'm']
 

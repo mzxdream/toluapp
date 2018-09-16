@@ -108,7 +108,7 @@ end
 function classPackage:preamble ()
  output('/*\n')
  output('** Lua binding: '..self.name..'\n')
- output('** Generated automatically by '..TOLUA_VERSION..' on '..date()..'.\n')
+ output('** Generated automatically by '..TOLUA_VERSION..'.\n')
  output('*/\n\n')
 
 	output('#ifndef __cplusplus\n')
@@ -198,7 +198,7 @@ end
 -- write header file
 function classPackage:header ()
  output('/*\n') output('** Lua binding: '..self.name..'\n')
- output('** Generated automatically by '..TOLUA_VERSION..' on '..date()..'.\n')
+ output('** Generated automatically by '..TOLUA_VERSION..'.\n')
  output('*/\n\n')
 
  if not flags.h then
