@@ -33,6 +33,8 @@ _basic = {
  ['lua_State*'] = 'state',
  ['_lstate'] = 'state',
  ['lua_Function'] = 'value',
+ ['int64_t'] = 'int64',
+ ['uint64_t'] = 'uint64',
 }
 
 _basic_ctype = {
@@ -42,6 +44,8 @@ _basic_ctype = {
  boolean = "bool",
  value = "int",
  state = "lua_State*",
+ int64 = "int64_t",
+ uint64 = "uint64_t",
 }
 
 -- functions the are used to do a 'raw push' of basic types
