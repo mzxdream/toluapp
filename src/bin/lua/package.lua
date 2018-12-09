@@ -114,6 +114,7 @@ function classPackage:preamble ()
 	output('#ifndef __cplusplus\n')
 	output('#include "stdlib.h"\n')
 	output('#endif\n')
+	output('#include "stdint.h"\n')
 	output('#include "string.h"\n\n')
  output('#include "tolua++.h"\n\n')
 
